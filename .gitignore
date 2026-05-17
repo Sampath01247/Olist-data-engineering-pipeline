@@ -1,0 +1,13 @@
+data/raw/
+data/cleaned/
+raw/
+*.csv
+
+__pycache__/
+*.pyc
+.env
+
+target/
+dbt_packages/
+logs/
+.DS_Store
