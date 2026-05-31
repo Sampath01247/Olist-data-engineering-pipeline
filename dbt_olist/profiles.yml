@@ -1,0 +1,14 @@
+dbt_olist:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: ELXIETE-MD01135
+      user: SAMPATH291
+      password: Avrhdioenlp525
+      role: ACCOUNTADMIN
+      database: OLIST_DB
+      warehouse: OLIST_WH
+      schema: RAW
+      threads: 4
+      client_session_keep_alive: False
