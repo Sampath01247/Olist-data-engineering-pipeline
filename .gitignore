@@ -11,3 +11,7 @@ target/
 dbt_packages/
 logs/
 .DS_Store
+
+# Python virtual environments
+venv/
+.venv/
